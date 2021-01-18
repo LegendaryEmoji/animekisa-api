@@ -1,10 +1,10 @@
 {
-  "name": "AdvancedTastyPlane",
+  "name": "animekisa-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A AnimeKisa Unofficial RESTAPI Project Using Scraping, Express & Cheerio.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
     "cheerio": "^1.0.0-rc.5",
     "express": "^4.17.1",
     "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "v12.x"
   }
 }
