@@ -2,11 +2,7 @@
 
 A AnimeKisa Unofficial RESTAPI Project Using Scraping, Express & Cheerio.
 
-<<<<<<< HEAD
 - Fast & Many Endpoints (random, popular, home, search, etc)
-=======
-- Fast & Many Endpoints (random, popular, home, etc)
->>>>>>> origin/master
 - Easy To Use
 
 ### Setup
@@ -35,8 +31,4 @@ Thanks & Not Possible.
 Note: Please Make Sure You Know Basics Or I Will Report You :)
 
 - Author - Legendary Emoji#1742
-<<<<<<< HEAD
 - License - [Mit](https://github.com/LegendaryEmoji/animekisa-api/blob/master/LICENSE)
-=======
-- License - [Mit](https://github.com/LegendaryEmoji/animekisa-api/blob/master/LICENSE)
->>>>>>> origin/master
