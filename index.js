@@ -2,7 +2,7 @@ const { GetHTML, Search, Home, Popular, GetInfo, Anime } = require("./Util.js");
 const express = require('express'), cheerio = require("cheerio"), fetch = require("node-fetch");
 const app = express();
 
-const Endpoints = ["/search/name (/search/to+love+ru)", "/info/name (/info/to-love-ru)", "/home", "/popular", "/random"];
+const Endpoints = ["/search/name (/search/to+love+ru)", "/info/name (/info/to-love-ru)", "/home", "/home/number", "/dubbed", "/dubbed/number", "/popular", "/popular/number", "/popular", "/popularall", "/popularall/number", "/populardub", "/populardub/number", "/popularduball", "/popularduball/number", "/random"];
  
 app.get('/', function (req, res) {
   res.status(200).send({ endpoints: Endpoints })
