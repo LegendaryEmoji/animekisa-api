@@ -1,20 +1,30 @@
 {
   "name": "animekisa-api",
-  "version": "1.0.0",
-  "description": "A AnimeKisa Unofficial RESTAPI Project Using Scraping, Express & Cheerio.",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "An unofficial AnimeKisa REST API project (using fastify, cheerio, axios).",
+  "main": "API.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node API.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LegendaryEmoji/animekisa-api.git"
+  },
+  "keywords": [
+    "animekisa",
+    "scraping",
+    "emo"
+  ],
+  "author": "Legendary Emoji#1742",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LegendaryEmoji/animekisa-api/issues"
+  },
+  "homepage": "https://github.com/LegendaryEmoji/animekisa-api#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.5",
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.1"
-  },
-  "engines": {
-    "node": "v12.x"
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "fastify": "^3.25.0"
   }
 }

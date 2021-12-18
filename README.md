@@ -1,34 +1,29 @@
 # Information
 
-A AnimeKisa Unofficial RESTAPI Project Using Scraping, Express & Cheerio.
+An unofficial AnimeKisa REST API project (using fastify, cheerio, axios).
 
-- Fast & Many Endpoints (random, popular, home, search, etc)
-- Easy To Use
+- Supports caching, logger & extremely fast response time
+- Advanced & highly customizable
+- Resource-friendly & easy-to-use
+- ...
 
-### Setup
+### Installation / Setup
 
-- Download / Export This Repository & Make Sure To Install [Node.js](https://nodejs.org/en/) & [Visual Studio Code (Only If You Don't Have Any Code Editor)](https://code.visualstudio.com/)
-- Open Project In Visual Studio Code (Editor) & (Visual Studio Code) To Open Console / Terminal - **Ctrl + A**
-- In Your Project Console / Terminal Type This - **npm i**
-- And Wait For Them (Packages) To Install...
-- After Installing Done, Type This In Your Console / Terminal - **_node ._** Or **_node index.js_**
-- When Bot Is Ready, You Will See A Message In Console / Terminal
-- Enjoy <3
-
-### Credits
-
-- [Cheerio](https://www.npmjs.com/package/cheerio)
-- [Express](https://www.npmjs.com/package/express)
-- [Stackoverflow](https://stackoverflow.com)
-- [Node Package Manager](https://www.npmjs.com/)
-
-### Donate
-
-Thanks & Not Possible.
+- Make sure you have [Node.js >= v17.3.0](https://nodejs.org/en/) & also a code editor, this is not necessary but pretty handy (we will be using [VSC](https://code.visualstudio.com/) in this installation)
+- [Download](https://github.com/LegendaryEmoji/animekisa-api/archive/refs/heads/master.zip) / Export / Clone this respository into your device.
+- If you downloaded the zip file, please extract it using [WinRAR](https://www.win-rar.com/start.html?&L=0) or your default operating system extractor.
+- Execute [VSC](https://code.visualstudio.com/) and open the [project](https://github.com/LegendaryEmoji/animekisa-api) folder into it.
+- Open [VSC](https://code.visualstudio.com/) default terminal with **Ctrl + `** & wait for it to open completely.
+- Enter **npm i** in the terminal and wait until every package is installed and you can type in terminal again.
+- When it's done, go to config.js and customize it (check [Wiki](https://github.com/LegendaryEmoji/animekisa-api/wiki/configurations))
+- Finally, you can start the server with **node API.js**, **node .** or **npm start** 
+- Again, You can always check [Wiki](https://github.com/LegendaryEmoji/animekisa-api/wiki/configurations) for anything.
+- Enjoy <3!
 
 ### Other
 
-Note: Please Make Sure You Know Basics Or I Will Report You :)
+Note: Please be careful when working with the source code of this project, its very difficult to troubleshoot due to its using cache & objects.
 
-- Author - Legendary Emoji#1742
-- License - [Mit](https://github.com/LegendaryEmoji/animekisa-api/blob/master/LICENSE)
+- Author - LegendaryEmoji#1742
+- Discord Server (Support|Chat) - [Click here](https://discord.gg/Df55eVQVmk)
+- License - [MIT](https://github.com/LegendaryEmoji/animekisa-api/blob/main/LICENSE)
